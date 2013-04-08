@@ -1,5 +1,8 @@
 require "lastme/version"
+require "lastme/connection"
+require 'dotenv'
+Dotenv.load
 
 module Lastme
-  # Your code goes here...
+  BASE_URI = 'ws.audioscrobbler.com'
 end
