@@ -9,3 +9,9 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = 'random'
 end
+
+system 'rm -rf   /tmp/lastme'
+system 'mkdir -p /tmp/lastme/.mpd'
+system 'touch /tmp/lastme/.mpd/database'
+system 'cp -R     spec/assets/music /tmp/lastme'
+system 'mpd spec/mpd/mpd.conf > /dev/null 2>&1'

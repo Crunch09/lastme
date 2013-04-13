@@ -1,5 +1,6 @@
 require "lastme/version"
 require "lastme/connection"
+require "lastme/player"
 require 'dotenv'
 Dotenv.load
 
