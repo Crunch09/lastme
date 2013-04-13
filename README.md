@@ -1,4 +1,4 @@
-# Lastme
+# Lastme [![Build Status](https://travis-ci.org/Crunch09/lastme.png)](https://travis-ci.org/Crunch09/lastme)
 
 TODO: Write a gem description
 
